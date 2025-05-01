@@ -1,0 +1,66 @@
+body {
+  background-color: #ffe4ec; /* Soft pink background */
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #fff0f6; /* Light pink card background */
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #d63384;
+  margin-bottom: 20px;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.option {
+  background-color: #ffffff;
+  border: 2px solid #d63384;
+  color: #d63384;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.option:hover {
+  background-color: #d63384;
+  color: #ffffff;
+}
+
+.result {
+  margin: 20px 0;
+  font-size: 18px;
+  color: #6c757d;
+}
+
+button {
+  padding: 10px 24px;
+  font-size: 16px;
+  background-color: #f06292;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d63384;
+}
